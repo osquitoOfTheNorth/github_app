@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <data>
+                <variable name="repoInfo"
+                    type="osquitoofthenorth.com.sb_github_app.sb_github_app.Models.RepoInfo"/>
+        </data>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <osquitoofthenorth.com.sb_github_app.sb_github_app.views.RepoInfoView
+                    android:id="@+id/first_line"
+                    app:labelText="@string/last_updated_label"
+                    app:valueText="@{repoInfo.formattedLastUpdated()}"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </osquitoofthenorth.com.sb_github_app.sb_github_app.views.RepoInfoView>
+                <osquitoofthenorth.com.sb_github_app.sb_github_app.views.RepoInfoView
+                    android:id="@+id/third_line"
+                    app:labelText="@string/stars_label"
+                    app:valueText="@{repoInfo.stars}"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </osquitoofthenorth.com.sb_github_app.sb_github_app.views.RepoInfoView>
+                <osquitoofthenorth.com.sb_github_app.sb_github_app.views.RepoInfoView
+                    android:id="@+id/second_line"
+                    app:labelText="@string/forks_label"
+                    app:valueText="@{repoInfo.forks}"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </osquitoofthenorth.com.sb_github_app.sb_github_app.views.RepoInfoView>
+        </LinearLayout>
+</layout>

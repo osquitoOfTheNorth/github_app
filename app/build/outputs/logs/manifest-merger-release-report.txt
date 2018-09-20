@@ -1,0 +1,173 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.databinding:adapters:3.1.4] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/adapters-3.1.4.aar/acc5be52c51fc97101bf245db8f8a76b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:library:3.1.4] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/library-3.1.4.aar/67d50c8c1fbc05cfc1b162ed6c014836/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/05726404072dc83f7bfb4c47b2bbbacb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5933efb3d0bf16fb5e3a903e2964072a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/821efb4f0be22f538c9e6b822327f470/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/ae626f9612452e5dabc2cb037345b8f2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/78d829e36ffeb0f3f66730a6779759e6/AndroidManifest.xml:17:1-30:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/2594163e047862344ed9c1b18bfbce52/AndroidManifest.xml:15:1-20:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/db3031595743ad9ab0d6941383f66624/AndroidManifest.xml:2:1-14:12
+MERGED from [android.arch.core:core-testing:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/core-testing-1.1.1.aar/3796207ab158f6522afeda542af198eb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/feefdf76355fbeb14fd2db1e90fca0e1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/2659f4c7427b862e6782c2e481cb9852/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/35a60b4c711e058ee76f89fccc4ad771/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/22f629414e4e09721ccf3c2b1611665a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/226a6248c2283d17d420df85c168b92b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3dda1e79cfe85f5c5cf458dd4c262e56/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/adad400400bfa8783f957b82817eecb1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/ff02907f66a1ed1709cd56d408c4d5b6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/45261d8d7c41b25ba0ce47a681ba4dfd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/7b1c0c4529b8bc8fb961766ceccf7d23/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d6b681af04cdd15a7de5c93f8912e566/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/96cbb30d21e0748019405a50d169eba8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a4d0740b2a6d2305ac46012c84e2f05e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f66e7e06bfeb7c6e7993c28283200e57/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/67a4411953c1a088537ecb3dab97d926/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/8abf2e7972cf18c55577ad25987f6ec6/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:3:5-50
+		INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:5:5-21:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/821efb4f0be22f538c9e6b822327f470/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/821efb4f0be22f538c9e6b822327f470/AndroidManifest.xml:9:5-20
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/78d829e36ffeb0f3f66730a6779759e6/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/78d829e36ffeb0f3f66730a6779759e6/AndroidManifest.xml:22:5-28:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/db3031595743ad9ab0d6941383f66624/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/db3031595743ad9ab0d6941383f66624/AndroidManifest.xml:7:5-12:19
+	android:supportsRtl
+		ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:12:9-40
+	android:name
+		ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:6:9-56
+activity#osquitoofthenorth.com.sb_github_app.sb_github_app.Activities.MainActivity
+ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:13:19-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:17:27-74
+uses-permission#android.permission.INTERNET
+ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml:22:22-64
+uses-sdk
+INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml
+INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml
+MERGED from [com.android.databinding:adapters:3.1.4] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/adapters-3.1.4.aar/acc5be52c51fc97101bf245db8f8a76b/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:adapters:3.1.4] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/adapters-3.1.4.aar/acc5be52c51fc97101bf245db8f8a76b/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.1.4] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/library-3.1.4.aar/67d50c8c1fbc05cfc1b162ed6c014836/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.1.4] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/library-3.1.4.aar/67d50c8c1fbc05cfc1b162ed6c014836/AndroidManifest.xml:22:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/05726404072dc83f7bfb4c47b2bbbacb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/05726404072dc83f7bfb4c47b2bbbacb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5933efb3d0bf16fb5e3a903e2964072a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5933efb3d0bf16fb5e3a903e2964072a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/821efb4f0be22f538c9e6b822327f470/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/821efb4f0be22f538c9e6b822327f470/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/ae626f9612452e5dabc2cb037345b8f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/ae626f9612452e5dabc2cb037345b8f2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/78d829e36ffeb0f3f66730a6779759e6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/78d829e36ffeb0f3f66730a6779759e6/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/2594163e047862344ed9c1b18bfbce52/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/2594163e047862344ed9c1b18bfbce52/AndroidManifest.xml:18:5-43
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/db3031595743ad9ab0d6941383f66624/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/db3031595743ad9ab0d6941383f66624/AndroidManifest.xml:5:5-44
+MERGED from [android.arch.core:core-testing:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/core-testing-1.1.1.aar/3796207ab158f6522afeda542af198eb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:core-testing:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/core-testing-1.1.1.aar/3796207ab158f6522afeda542af198eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/feefdf76355fbeb14fd2db1e90fca0e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/feefdf76355fbeb14fd2db1e90fca0e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/2659f4c7427b862e6782c2e481cb9852/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/2659f4c7427b862e6782c2e481cb9852/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/35a60b4c711e058ee76f89fccc4ad771/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/35a60b4c711e058ee76f89fccc4ad771/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/22f629414e4e09721ccf3c2b1611665a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/22f629414e4e09721ccf3c2b1611665a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/226a6248c2283d17d420df85c168b92b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/226a6248c2283d17d420df85c168b92b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3dda1e79cfe85f5c5cf458dd4c262e56/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3dda1e79cfe85f5c5cf458dd4c262e56/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/adad400400bfa8783f957b82817eecb1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/adad400400bfa8783f957b82817eecb1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/ff02907f66a1ed1709cd56d408c4d5b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/ff02907f66a1ed1709cd56d408c4d5b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/45261d8d7c41b25ba0ce47a681ba4dfd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/45261d8d7c41b25ba0ce47a681ba4dfd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/7b1c0c4529b8bc8fb961766ceccf7d23/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/7b1c0c4529b8bc8fb961766ceccf7d23/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d6b681af04cdd15a7de5c93f8912e566/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d6b681af04cdd15a7de5c93f8912e566/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/96cbb30d21e0748019405a50d169eba8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/96cbb30d21e0748019405a50d169eba8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a4d0740b2a6d2305ac46012c84e2f05e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a4d0740b2a6d2305ac46012c84e2f05e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f66e7e06bfeb7c6e7993c28283200e57/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f66e7e06bfeb7c6e7993c28283200e57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/67a4411953c1a088537ecb3dab97d926/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/67a4411953c1a088537ecb3dab97d926/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/8abf2e7972cf18c55577ad25987f6ec6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/8abf2e7972cf18c55577ad25987f6ec6/AndroidManifest.xml:20:5-44
+INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml
+INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/oscmenji/projects/sb_github_app/app/src/main/AndroidManifest.xml
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/78d829e36ffeb0f3f66730a6779759e6/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/78d829e36ffeb0f3f66730a6779759e6/AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/78d829e36ffeb0f3f66730a6779759e6/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/78d829e36ffeb0f3f66730a6779759e6/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/78d829e36ffeb0f3f66730a6779759e6/AndroidManifest.xml:24:13-83
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/db3031595743ad9ab0d6941383f66624/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/db3031595743ad9ab0d6941383f66624/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/db3031595743ad9ab0d6941383f66624/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/oscmenji/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/db3031595743ad9ab0d6941383f66624/AndroidManifest.xml:9:13-64

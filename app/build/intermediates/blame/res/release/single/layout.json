@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/oscmenji/projects/sb_github_app/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/detailed_repo_info_layout.xml",
+        "source": "/Users/oscmenji/projects/sb_github_app/app/src/main/res/layout/detailed_repo_info_layout.xml"
+    },
+    {
+        "merged": "/Users/oscmenji/projects/sb_github_app/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/oscmenji/projects/sb_github_app/app/src/main/res/layout/activity_main.xml"
+    }
+]

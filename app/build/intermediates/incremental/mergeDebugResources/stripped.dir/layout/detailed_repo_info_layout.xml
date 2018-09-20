@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+        
+                                         
+                                                                                              
+               
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:tag="layout/detailed_repo_info_layout_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+                <osquitoofthenorth.com.sb_github_app.sb_github_app.views.RepoInfoView
+                    android:id="@+id/first_line"
+                    app:labelText="@string/last_updated_label"
+                    android:tag="binding_1"                           
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </osquitoofthenorth.com.sb_github_app.sb_github_app.views.RepoInfoView>
+                <osquitoofthenorth.com.sb_github_app.sb_github_app.views.RepoInfoView
+                    android:id="@+id/third_line"
+                    app:labelText="@string/stars_label"
+                    android:tag="binding_2"          
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </osquitoofthenorth.com.sb_github_app.sb_github_app.views.RepoInfoView>
+                <osquitoofthenorth.com.sb_github_app.sb_github_app.views.RepoInfoView
+                    android:id="@+id/second_line"
+                    app:labelText="@string/forks_label"
+                    android:tag="binding_3"          
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </osquitoofthenorth.com.sb_github_app.sb_github_app.views.RepoInfoView>
+        </LinearLayout>
+         

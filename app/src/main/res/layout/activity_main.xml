@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/tools">
+    <data>
+        <variable name="viewModel"
+            type="osquitoofthenorth.com.sb_github_app.sb_github_app.viewmodels.MainActivityViewModel"/>
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingTop="8dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:animateLayoutChanges="true">
+
+        <LinearLayout
+            android:id="@+id/search_container"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="256dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+                <android.support.design.widget.TextInputEditText
+                    android:hint="@string/main_activitiy_edit_text_hint"
+                    android:layout_width="match_parent"
+                    android:text="@={viewModel.searchModel.stringValue}"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/search_input"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:onClick="@{() ->  viewModel.onSearch() }"
+                android:id="@+id/search_button"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/user_info_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/search_container">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                bind:imgUrl="@{viewModel.avatarImageUrl.stringValue}" />
+
+            <TextView
+                android:textSize="12sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@{viewModel.githubUserName.stringValue}"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginTop="16dp"
+            android:id="@+id/repo_info_recycler_view"
+            app:layout_constraintTop_toBottomOf="@id/user_info_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.RecyclerView>
+
+    </android.support.constraint.ConstraintLayout>
+</layout>
